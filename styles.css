@@ -3,7 +3,7 @@
 	border:2px olive solid;
 	display: flex;
 	/*flex-wrap: wrap-reverse;*/
-	justify-content:center;
+	justify-content:flex-end;
 	align-items:center;
 	
 	height: 350px;
