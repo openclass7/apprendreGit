@@ -1,0 +1,31 @@
+
+#conteneur{
+	border:2px olive solid;
+	display: flex;
+	/*flex-wrap: wrap-reverse;*/
+	justify-content:center;
+	align-items:center;
+	
+	height: 350px;
+}
+.element{
+	/*width: 350px;*/
+	width: 150px;
+	height: 100px;
+
+}
+.element:nth-child(1)
+{background-color: rgb(119, 0, 255);
+  flex: 1;
+  order: 2;}
+
+.element:nth-child(2)
+{background-color: pink;
+	flex: 2;
+order: 3;}
+
+
+.element:nth-child(3)
+{background-color: green;
+order: 1;}
+
